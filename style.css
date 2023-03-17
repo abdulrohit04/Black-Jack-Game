@@ -1,13 +1,14 @@
 h1{
-    color: rgba(255, 0, 0, 0.812);
-    font-family: 'Times New Roman', Times, serif;
+    color: #f2b10e;
+    font-family: cursive
+    
 }
 p{
     color: aliceblue;
     font-size: x-large;
 }
 
-#p1{
+#messageEl{
     font-style: italic;
 }
 
@@ -15,18 +16,23 @@ body{
     background-color: rgba(18, 104, 18, 0.884);
     background-size: cover;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    font-family: cursive;
 }
 
 #start-btn{
-    padding: 5px 5px 5px 5px;
+    padding: 2px 15px 2px 15px ;
     width: 200px;
-    border: 5cap;
-    background-color:darkgoldenrod ;
-    border-radius: 12px;
-    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:#f2b10e ;
+    color: rgba(18, 104, 18, 0.884);
     cursor: pointer;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+    font-family: cursive;
 }
 #start-btn:hover{
-    background-color: rgba(255, 0, 0, 0.763);
+    background-color: aliceblue;
 }
